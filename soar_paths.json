@@ -1,0 +1,366 @@
+[
+    {
+        "data_path": "action_result.data.*.group_val",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_type_string",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.alert_labels.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.configuration.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.is_compliance",
+        "data_type": "boolean"
+    },
+    {
+        "data_path": "action_result.data.*.group_type_string",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.control_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.line",
+        "data_type": "numeric"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.origin",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.commit.author.name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.commit.author.email",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.commit.message",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.commit.url",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.commit.hash",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.description",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.recommendation.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.title",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.repository.name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.repository.url",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.branch",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.platform",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.is_custom",
+        "data_type": "boolean"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.orca_alert_rule_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.key",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.origin_url",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.pull_request.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.ci_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.resource_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.cloud_provider",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.priority",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.feature_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.code_snippet.*.line",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.code_snippet.*.position",
+        "data_type": "numeric"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.build.number",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.build.url",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.category",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.resource_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.expected_value",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.description_urls.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.skip_reason.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.findings.iac.*.status",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.related_compliances.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.description",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.recommendation",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.source",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.group_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cluster_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.group_unique_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cloud_account_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.type_string",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.account_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.context",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.details",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.severity",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.rule_source",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.last_updated",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.last_seen",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.in_verification",
+        "data_type": "boolean"
+    },
+    {
+        "data_path": "action_result.data.*.state.low_since.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.created_at",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.score",
+        "data_type": "numeric"
+    },
+    {
+        "data_path": "action_result.data.*.state.risk_level",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.orca_score",
+        "data_type": "numeric"
+    },
+    {
+        "data_path": "action_result.data.*.state.alert_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.high_since",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.closed_reason",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.status_time",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.status",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.state.verification_status.*",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cluster_unique_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cluster_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.subject_type",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.group_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.level",
+        "data_type": "numeric"
+    },
+    {
+        "data_path": "action_result.data.*.cloud_provider",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.organization_name",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.type_key",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cloud_vendor_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.rule_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_category",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_state",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.organization_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.asset_unique_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cloud_provider_id",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.category",
+        "data_type": "string"
+    },
+    {
+        "data_path": "action_result.data.*.cloud_account_type",
+        "data_type": "string"
+    }
+]
