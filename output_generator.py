@@ -1,6 +1,7 @@
 import json
 
-START_PATH = 'action_result.data.*.' 
+START_PATH_MULTIPLE_DATA = 'action_result.data.*.'
+START_PATH_SINGLE_DATA = 'action_result.data.' 
 DATA_KEY = '' #value key i.e 'data' in response json where all of data are located, leave empty if response is signle data occurance
 
 mapping = {
@@ -29,12 +30,13 @@ def generating(dict, start_path):
                 else:
                     yield from generating(value, start_path + key + '.')
 
+start_path = START_PATH_MULTIPLE_DATA if DATA_KEY else START_PATH_SINGLE_DATA
 json_odput = []
 with open('response_scheme.json', 'r') as file:
     content = json.loads(file.read())
     iter_obj =  content[DATA_KEY] if DATA_KEY else [content]
     for nested in iter_obj:
-        for key, value in generating(nested, START_PATH):
+        for key, value in generating(nested, start_path):
             json_odput.append(
                 {
                     "data_path": key,
